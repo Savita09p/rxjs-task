@@ -8,6 +8,8 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { PostsComponent } from './shared/components/posts/posts.component';
 import { TodosComponent } from './shared/components/todos/todos.component';
+import { UsersComponent } from './shared/components/users/users.component';
+import { CommentsComponent } from './shared/components/comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TodosComponent } from './shared/components/todos/todos.component';
     NavbarComponent,
     HomeComponent,
     PostsComponent,
-    TodosComponent
+    TodosComponent,
+    UsersComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
